@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'login.dart';
 
 class SplashPage extends StatefulWidget {
-  const SplashPage({Key? key}) : super(key: key);
+  const SplashPage({super.key});
 
   @override
   _SplashPageState createState() => _SplashPageState();

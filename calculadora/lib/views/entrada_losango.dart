@@ -25,9 +25,7 @@ class EntradaLosango extends StatelessWidget {
             const SizedBox(height: 20),
             TextField(
               controller: alturaController,
-              decoration: const InputDecoration(
-                labelText: "Altura (opcional):",
-              ),
+              decoration: const InputDecoration(labelText: "Altura:"),
               keyboardType: TextInputType.number,
             ),
             const SizedBox(height: 20),

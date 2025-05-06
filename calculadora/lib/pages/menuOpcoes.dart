@@ -11,6 +11,8 @@ import '../views/entrada_trapezio.dart';
 import '../views/entrada_triangulo.dart';
 
 class MenuOpcoes extends StatelessWidget {
+  const MenuOpcoes({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -40,10 +42,10 @@ class MenuOpcoes extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Text('Círculo'),
                   style: ElevatedButton.styleFrom(
                     minimumSize: Size(double.infinity, 50),
                   ),
+                  child: Text('Círculo'),
                 ),
                 SizedBox(height: 20),
                 ElevatedButton(
@@ -55,10 +57,10 @@ class MenuOpcoes extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Text('Cubo'),
                   style: ElevatedButton.styleFrom(
                     minimumSize: Size(double.infinity, 50),
                   ),
+                  child: Text('Cubo'),
                 ),
                 SizedBox(height: 20),
                 ElevatedButton(
@@ -70,10 +72,10 @@ class MenuOpcoes extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Text('Esfera'),
                   style: ElevatedButton.styleFrom(
                     minimumSize: Size(double.infinity, 50),
                   ),
+                  child: Text('Esfera'),
                 ),
                 SizedBox(height: 20),
                 ElevatedButton(
@@ -85,10 +87,10 @@ class MenuOpcoes extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Text('Hexagono'),
                   style: ElevatedButton.styleFrom(
                     minimumSize: Size(double.infinity, 50),
                   ),
+                  child: Text('Hexagono'),
                 ),
                 SizedBox(height: 20),
                 ElevatedButton(
@@ -98,10 +100,10 @@ class MenuOpcoes extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => EntradaLosango()),
                     );
                   },
-                  child: Text('Losango'),
                   style: ElevatedButton.styleFrom(
                     minimumSize: Size(double.infinity, 50),
                   ),
+                  child: Text('Losango'),
                 ),
                 SizedBox(height: 20),
                 ElevatedButton(
@@ -113,10 +115,10 @@ class MenuOpcoes extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Text('Paralelogramo'),
                   style: ElevatedButton.styleFrom(
                     minimumSize: Size(double.infinity, 50),
                   ),
+                  child: Text('Paralelogramo'),
                 ),
                 SizedBox(height: 20),
                 ElevatedButton(
@@ -128,10 +130,10 @@ class MenuOpcoes extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Text('Quadrado'),
                   style: ElevatedButton.styleFrom(
                     minimumSize: Size(double.infinity, 50),
                   ),
+                  child: Text('Quadrado'),
                 ),
                 SizedBox(height: 20),
                 ElevatedButton(
@@ -143,10 +145,10 @@ class MenuOpcoes extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Text('Retângulo'),
                   style: ElevatedButton.styleFrom(
                     minimumSize: Size(double.infinity, 50),
                   ),
+                  child: Text('Retângulo'),
                 ),
                 SizedBox(height: 20),
                 ElevatedButton(
@@ -158,10 +160,10 @@ class MenuOpcoes extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Text('Trapezio'),
                   style: ElevatedButton.styleFrom(
                     minimumSize: Size(double.infinity, 50),
                   ),
+                  child: Text('Trapezio'),
                 ),
                 SizedBox(height: 20),
                 ElevatedButton(
@@ -173,10 +175,10 @@ class MenuOpcoes extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Text('Triangulo'),
                   style: ElevatedButton.styleFrom(
                     minimumSize: Size(double.infinity, 50),
                   ),
+                  child: Text('Triangulo'),
                 ),
               ],
             ),
